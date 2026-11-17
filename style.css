@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #FFDEAF;
+    --cor1: #CCB562;
+    --cor2: #998E68;
+    --cor3: #998E68;
+    --cor4: #333025;
+
+    --fonte-título: sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+}
+
+img {
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    padding: 25px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.363);
+}
+
+header h1 {
+    padding: 10px;
+    font-size: 2.5em;
+    font-family: var(--fonte-título);
+}
+
+header p {
+    font-size: 1.25em;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 5px;
+    max-width: 1200px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.363);
+}
+
+main h1 {
+    padding: 20px;
+}
+
+main h2, h3, h4 {
+    padding: 10px;
+}
+
+main h2 {
+    font-size: 1.6em;
+    color: var(--cor2);
+    font-weight: 700;
+}
+
+main h3 {
+    font-size: 1.4em;
+    text-indent: 2px;
+    color: var(--cor4);
+}
+
+main p {
+    padding: 8px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+main ul {
+    list-style-position: inside;
+    padding: 7px;
+}
+
+main a {
+    color: var(--cor4);
+}
+
+.box {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: var(--cor2);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.144);
+    text-align: center;
+}
+
+h1.box {
+    text-align: center;
+}
+
+.video {
+    background-color: var(--cor2);
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.144);
+}
+
+div.video > iframe{
+    margin-top: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    text-align: center;
+    padding: 10px;
+}
