@@ -24,6 +24,10 @@ img {
     margin: auto;
 }
 
+img.item {
+    background-image: url(imagens-how-to-kill/inventory-slot-dst-64.jpg);
+}
+
 header {
     text-align: center;
     margin: auto;
