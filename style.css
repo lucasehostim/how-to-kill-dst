@@ -8,7 +8,7 @@
 :root {
     --cor0: #FFDEAF;
     --cor1: #CCB562;
-    --cor2: #998E68;
+    --cor2: #CFC9B4;
     --cor3: #998E68;
     --cor4: #333025;
 
@@ -68,8 +68,9 @@ main h2, h3, h4 {
 
 main h2 {
     font-size: 1.6em;
-    color: var(--cor2);
+    color: var(--cor1);
     font-weight: 700;
+    background-color: var(--cor4);
 }
 
 main h3 {
@@ -96,7 +97,7 @@ main a {
 .box {
     max-width: 800px;
     margin: 20px auto;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     padding-bottom: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.144);
@@ -108,11 +109,12 @@ h1.box {
 }
 
 .video {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     margin: auto;
     text-align: center;
     max-width: 600px;
-    border-radius: 10px;
+    border-radius: 1px;
+    outline: 3px solid var(--cor4);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.144);
 }
 
