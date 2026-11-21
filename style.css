@@ -104,8 +104,8 @@ main a {
     text-align: center;
 }
 
-h1.box {
-    text-align: center;
+.box > h2 {
+    border-radius: 10px 10px 0px 0px;
 }
 
 .video {
